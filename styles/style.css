@@ -108,7 +108,7 @@ body, main{
     /* padding-right: 100px; */
     /* padding: 20px; */
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.01);
-    height: 400px;
+    height: 300px;
     width: 100%;
     padding-top: 20px;
 }
@@ -123,4 +123,33 @@ body, main{
     padding: 16px 32px;
     border: none;
     border-radius: 5px;
+}
+.display{
+    display: flex;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding-top: 30px;
+    /* align-items: center; */
+    justify-content: space-around;
+    padding: 50px;
+}
+.best{
+    color: #FF0000;
+    font-size: 24px;
+    font-weight: 600;
+    
+
+}
+.soon{
+    font-size: 48px;
+    font-weight: bolder;
+    padding-top: 0;
+   
+}
+.dolor{
+    color: #070211;
+    font-size: 20px;
+}
+.picture{
+    margin: 0 50px;
 }
