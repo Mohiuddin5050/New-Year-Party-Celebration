@@ -152,4 +152,7 @@ body, main{
 }
 .picture{
     margin: 0 50px;
+    border: 10px solid #ff0000;
+  border-radius: 50%;
+  padding: 15px;
 }
