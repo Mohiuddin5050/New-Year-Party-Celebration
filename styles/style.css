@@ -218,6 +218,60 @@ body, main{
 }
 .gifts-img{
     display: flex;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
     gap: 24px;
+}
+.new-year{
+    text-align: center;
+    padding: 100px;
+     background-image: linear-gradient(
+    to top,
+    rgba(255, 0, 0, 0.1),
+    rgba(255, 0, 0, 0.1)
+  );
+}
+.new-year-h1{
+    font-size: 48px;
+    font-weight: 900;
+}
+.new-year-p{
+    font-size: 20px;
+    text-align: center;
+     color: rgba(1, 2, 17, 0.6);
+     
+
+}
+footer {
+  background: #070211;
+  color: white;
+}
+footer section {
+  max-width: 1350px;
+  margin: 0px auto;
+}
+.address {
+  display: flex;
+  justify-content: space-between;
+  padding:60px 120px;
+  font-size: 24px;
+  font-weight: 600;
+}
+.contact-info{
+    display: flex;
+  gap: 10px;
+  text-align: center;
+
+}
+.social-media{
+    text-align: center;
+  margin-top: 71px;
+  margin-bottom: 70px;
+}
+.social-media img {
+  margin-right: 24px;
+}
+.unsubscribe{
+    display: flex;
+    justify-content: space-between;
+    padding:40px 120px;
 }
