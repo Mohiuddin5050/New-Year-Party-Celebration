@@ -132,6 +132,7 @@ body, main{
     /* align-items: center; */
     justify-content: space-around;
     padding: 50px;
+    margin-bottom: 130px;
 }
 .best{
     color: #FF0000;
@@ -155,4 +156,43 @@ body, main{
     border: 10px solid #ff0000;
   border-radius: 50%;
   padding: 15px;
+}
+.holiday-section{
+    margin-bottom: 130px;
+}
+.holiday{
+    text-align: center;
+    padding: 0 125px;
+}
+.holiday-h5{
+    font-size: 24px;
+    font-weight: 600;
+    color: #070211;
+}
+.holiday-h1{
+    font-size: 72px;
+    font-weight: 900;
+    margin-top: 20px;
+    margin-bottom: 28px;
+}
+.holiday-span{
+    color: #ff0000;
+}
+.holiday-p{
+    font-size: 20px;
+    font-weight: 600;
+    color: #27021e;
+    line-height: 32px;
+    margin-bottom: 64px;
+    /* padding-left: 240px; */
+    /* padding-right: 240px; */
+}
+.holiday-img{
+    background-image: url('../new-year-offer-resources/images/Rectangle\ 2.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+}
+.group-44{
+    position: absolute;
 }
